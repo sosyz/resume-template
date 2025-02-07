@@ -1,0 +1,119 @@
+info:
+  online:
+    name: "在线版本: resume.techstack.dev"
+    url: "https://resume.techstack.dev"
+  personal:
+    name: 张明远
+    email: zmy@techstack.dev
+    phone: 17755556666
+    wechat: zmydev
+    github: devzmy
+    blog: blog.techstack.dev
+  education:
+    - school: "浙江大学计算机科学与技术学院"
+      major: "软件工程"
+      degree: "工学硕士"
+      time: ["2017.09", "2020.06"]
+      tag: ["双一流", "985"]
+    - school: "清华大学信息科学技术学院"
+      major: "计算机科学与技术"
+      degree: "工学学士"
+      time: ["2013.09", "2017.06"]
+      tag: ["双一流", "985"]
+  introduction: |
+    拥有**全栈开发**背景的高级工程师，专注于**云原生应用开发**与**微服务架构**设计。
+    精通**Node.js/TypeScript/Rust**技术栈，在**容器化部署**和**服务网格**领域有丰富经验。
+    参与过多个大型**SaaS平台**开发，具备**微服务治理**、**分布式系统**设计经验，
+    擅长**技术架构**优化和**性能调优**，注重**代码质量**和**工程效率**。
+  job:
+    name: 高级全栈工程师
+    location: 北京/深圳
+    salary: 35k-45k
+    items:
+      - company: "字节跳动"
+        position: "高级后端工程师"
+        location: "北京"
+        time: ["2020.07", "2023.12"]
+        content: "负责抖音电商核心服务开发，设计实现高并发订单系统，优化服务性能，推进微服务架构升级。"
+        isIntern: false
+      - company: "腾讯云"
+        position: "云原生开发工程师"
+        location: "深圳"
+        time: ["2019.06", "2020.06"]
+        content: "参与腾讯云原生平台开发，负责容器编排系统优化，设计实现多集群管理方案。"
+        isIntern: true
+  projects:
+    items:
+    - name: "电商订单中台"
+      time: ["2022.03", "2023.12"]
+      work: "技术负责人"
+      content: |
+        作为**技术负责人**主导设计实现新一代订单中台系统，支撑抖音电商日均**千万级**订单处理。
+        采用**DDD领域驱动**设计思想，实现订单领域模型的解耦；基于**Kubernetes**构建微服务架构，
+        实现服务自动扩缩容；设计**分布式事务**解决方案，确保订单处理的数据一致性；实现基于
+        **Elasticsearch**的订单检索系统，支持复杂查询场景；通过**服务网格**技术优化服务通信，
+        实现**99.99%**的系统可用性。
+      technology: "Node.js, TypeScript, MongoDB, Kubernetes, Istio, Kafka"
+    - name: "容器云管理平台"
+      time: ["2019.06", "2020.06"]
+      work: "核心开发"
+      content: |
+        作为**核心开发**参与腾讯云容器服务平台建设，负责多集群管理模块开发。设计实现了基于
+        **Rust**的高性能调度器，支持跨区域容器编排；开发**自定义控制器**，实现工作负载的智能调度；
+        实现集群监控告警系统，支持多维度指标采集和异常检测；设计**多租户**资源隔离方案，
+        提供企业级容器云解决方案。
+      technology: "Rust, Kubernetes, Prometheus, gRPC, etcd"
+    - name: "实时数据分析平台"
+      time: ["2020.07", "2021.12"]
+      work: "后端架构师"
+      content: |
+        设计实现面向**实时数据处理**的分布式分析平台。采用**Lambda架构**，
+        实现离线和实时数据处理双通道；使用**Flink**构建实时计算引擎，支持亿级数据秒级分析；
+        设计**流批一体**的数据处理方案，优化数据处理效率；实现基于**ClickHouse**的
+        多维分析系统，支持亚秒级查询响应。
+      technology: "Flink, ClickHouse, Kafka, Redis, React"
+  awards:
+    items:
+      - name: "ACM-ICPC 亚洲区域赛"
+        level: "银牌"
+        time: "2018.11"
+        tags: ["算法竞赛"]
+      - name: "字节跳动技术创新大赛"
+        level: "一等奖"
+        time: "2022.09"
+        tags: ["技术创新", "系统设计"]
+      - name: "腾讯云开发者大赛"
+        level: "最佳技术奖"
+        time: "2019.12"
+        tags: ["云原生", "容器技术"]
+sections:
+  introduction:
+    title: 个人介绍
+  header:
+    title: 个人简历
+  projects:
+    title: 项目经历
+    role: 
+    description: 
+    technology: 技术栈
+    time: 时间
+    url: 链接
+  footer:
+    copyright: "版权所有"
+    poweredBy: "GitHub Pages"
+    switchLanguage: "切换语言"
+    print: "打印简历" 
+  job:
+    title: 工作经历
+    location: 工作地点
+    salary: 薪资
+    intern: 实习
+  awards:
+    title: 荣誉奖项
+    issuer: 颁发单位
+  education:
+    title: 教育背景
+    school: 学校
+    major: 专业
+    degree: 学位
+    extra: 其他

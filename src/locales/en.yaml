@@ -1,0 +1,144 @@
+info:
+  online:
+    name: "Online Version: resume.techstack.dev"
+    url: "https://resume.techstack.dev"
+  personal:
+    name: "Zhang Mingyuan"
+    email: "zmy@techstack.dev"
+    phone: "+86 177-5555-6666"
+    wechat: "zmydev"
+    github: "devzmy"
+    blog: "blog.techstack.dev"
+  education:
+    - school: "College of Computer Science, Zhejiang University"
+      major: "Software Engineering"
+      degree: "Master of Engineering"
+      time: ["2017.09", "2020.06"]
+      tag: ["Double First-Class", "985"]
+    - school: "College of Computer Science, Zhejiang University"
+      major: "Software Engineering"
+      degree: "Bachelor of Engineering"
+      time: ["2013.09", "2017.06"]
+      tag: ["Double First-Class", "985"]
+  introduction: |
+    Senior engineer with **full-stack development** background, focusing on **cloud-native application development** 
+    and **microservice architecture** design. Proficient in **Node.js/TypeScript/Rust** technology stack, 
+    with rich experience in **containerization** and **service mesh**. Participated in multiple large-scale 
+    **SaaS platform** development projects, with expertise in **microservice governance** and 
+    **distributed systems** design. Skilled in **technical architecture** optimization and 
+    **performance tuning**, emphasizing **code quality** and **engineering efficiency**.
+  job:
+    name: "Senior Full-Stack Engineer"
+    location: "Beijing/Shenzhen"
+    salary: "35k-45k"
+    items:
+      - company: "ByteDance"
+        position: "Senior Backend Engineer"
+        location: "Beijing"
+        time: ["2020.07", "2023.12"]
+        content: "Responsible for Douyin E-commerce core service development, designing and implementing high-concurrency order systems, optimizing service performance, and advancing microservice architecture upgrades."
+        isIntern: false
+      - company: "Tencent Cloud"
+        position: "Cloud Native Developer"
+        location: "Shenzhen"
+        time: ["2019.06", "2020.06"]
+        content: "Participated in Tencent cloud-native platform development, responsible for container orchestration system optimization and multi-cluster management solution design."
+        isIntern: true
+  projects:
+    items:
+    - name: "E-commerce Order Platform"
+      time: ["2022.03", "2023.12"]
+      work: "Technical Lead"
+      content: |
+        As the **Technical Lead**, led the design and implementation of a next-generation order platform 
+        supporting **millions** of daily orders for Douyin E-commerce. Implemented domain model decoupling 
+        using **DDD principles**; built microservice architecture on **Kubernetes** with auto-scaling; 
+        designed **distributed transaction** solutions ensuring data consistency; implemented order search 
+        system based on **Elasticsearch**; optimized service communication using **service mesh** 
+        technology, achieving **99.99%** system availability.
+      technology: "Node.js, TypeScript, MongoDB, Kubernetes, Istio, Kafka"
+    - name: "Container Cloud Management Platform"
+      time: ["2019.06", "2020.06"]
+      work: "Core Developer"
+      content: |
+        As a **Core Developer** in Tencent Cloud container service platform, responsible for multi-cluster 
+        management module development. Designed and implemented high-performance scheduler in **Rust** 
+        supporting cross-region container orchestration; developed **custom controllers** for intelligent 
+        workload scheduling; implemented cluster monitoring and alerting system; designed **multi-tenant** 
+        resource isolation solutions.
+      technology: "Rust, Kubernetes, Prometheus, gRPC, etcd"
+    - name: "Real-time Data Analytics Platform"
+      time: ["2020.07", "2021.12"]
+      work: "Backend Architect"
+      content: |
+        Designed and implemented distributed analytics platform for **real-time data processing**. 
+        Adopted **Lambda architecture** for offline and real-time data processing; built real-time 
+        computing engine using **Flink** supporting billion-level data analysis; designed unified 
+        stream and batch processing solution; implemented multi-dimensional analysis system based 
+        on **ClickHouse** with sub-second query response.
+      technology: "Flink, ClickHouse, Kafka, Redis, React"
+  awards:
+    items:
+      - name: "ACM-ICPC Asia Regional Contest"
+        level: "Silver Medal"
+        time: "2018.11"
+        tags: ["Algorithm Competition"]
+      - name: "ByteDance Technical Innovation Contest"
+        level: "First Prize"
+        time: "2022.09"
+        tags: ["Technical Innovation", "System Design"]
+      - name: "Tencent Cloud Developer Contest"
+        level: "Best Technical Award"
+        time: "2019.12"
+        tags: ["Cloud Native", "Container Technology"]
+sections:
+  introduction:
+    title: "Introduction"
+  header:
+    title: "Resume"
+  projects:
+    title: "Project Experience"
+    role: "Role"
+    description: "Description"
+    technology: "Tech Stack"
+    time: "Duration"
+    url: "Link"
+  footer:
+    copyright: "Copyright"
+    poweredBy: "GitHub Pages"
+    switchLanguage: "Switch Language"
+    print: "Print Resume"
+  job:
+    title: "Work Experience"
+    location: "Location"
+    salary: "Salary"
+    intern: "Internship"
+  awards:
+    title: "Honors & Awards"
+    issuer: "Issuer"
+  education:
+    title: "Education"
+    school: "School"
+    major: "Major"
+    degree: "Degree"
+    extra: "Extra"
+
+  personalInfo:
+    title: Personal Information
+    name: Name
+    email: Email
+    phone: Phone
+  
+  skills:
+    title: Skills
+    programming: Programming Languages
+    programmingList: TypeScript, Python, Java
+    frameworks: Frontend Frameworks
+    frameworksList: React, Vue, Angular
+    tools: Development Tools
+    toolsList: Git, Docker, VS Code 
+
+project:
+  role: Role
+  description: Description
+  technology: Technologies 
